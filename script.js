@@ -4,6 +4,7 @@ const infoBox = document.querySelector('.info_box');
 const exitBtn = infoBox.querySelector('.buttons .quit');
 const continueBtn = infoBox.querySelector('.buttons .restart');
 const quizBox = document.querySelector('.quiz_box');
+const resultBox = document.querySelector('.result_box');
 
 startBtn.addEventListener('click', () => {
 	infoBox.classList.add('activeInfo');
@@ -32,7 +33,8 @@ nextBtn.addEventListener('click', () => {
 		showQuestions(queCount);
 		queCounter(queNum);
 	} else {
-		alert('Questions Completed');
+		quizBox.classList.remove('activeQuiz');
+		resultBox.classList.add('activeResult');
 	}
 });
 

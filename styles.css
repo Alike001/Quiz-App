@@ -22,7 +22,8 @@ body {
 }
 
 .info_box.activeInfo,
-.quiz_box.activeQuiz {
+.quiz_box.activeQuiz,
+.result_box.activeResult {
   opacity: 1;
   pointer-events: auto;
   transform: translate(-50%, -50%) scale(1);
