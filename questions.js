@@ -4,19 +4,19 @@ export const questions = [
     number: 1,
     question: "Which keyword is used to declare a variable in JavaScript?",
     options: ["var", "let", "const", "All of the above"],
-    correctAnswer: 3
+    correctAnswer: "All of the above"
   },
   {
     number: 2,
     question: "Which symbol is used for single-line comments in JavaScript?",
-    options: ["<!-- -->", "//", "/* */", "#"],
-    correctAnswer: 1
+    options: ["/", "//", "/* */", "#"],
+    correctAnswer: "//"
   },
   {
     number: 3,
     question: "Which method outputs messages to the browser console?",
     options: ["console.print()", "print()", "console.log()", "log()"],
-    correctAnswer: 2
+    correctAnswer: "console.log()"
   },
   {
     number: 4,
@@ -27,43 +27,43 @@ export const questions = [
       "var colors = 'red', 'blue'",
       "var colors = {red, blue}"
     ],
-    correctAnswer: 1
+    correctAnswer: "var colors = ['red', 'blue']"
   },
   {
     number: 5,
     question: "Which operator checks both value and type?",
     options: ["==", "=", "===", "!="],
-    correctAnswer: 2
+    correctAnswer: "==="
   },
   {
     number: 6,
     question: "What does NaN stand for?",
     options: ["Not a Name", "Not a Number", "New and Null", "Number and Null"],
-    correctAnswer: 1
+    correctAnswer: "Not a Number"
   },
   {
     number: 7,
     question: "Which keyword is used to define a constant?",
     options: ["var", "let", "const", "static"],
-    correctAnswer: 2
+    correctAnswer: "const"
   },
   {
     number: 8,
     question: "Which function is used to parse a string to an integer?",
     options: ["parseInt()", "Number()", "int()", "toInteger()"],
-    correctAnswer: 0
+    correctAnswer:"parseInt()"
   },
   {
     number: 9,
     question: "Which loop executes at least once?",
     options: ["for", "while", "do...while", "foreach"],
-    correctAnswer: 2
+    correctAnswer: "do...while"
   },
   {
     number: 10,
     question: "Which method removes the last element from an array?",
     options: ["shift()", "pop()", "push()", "slice()"],
-    correctAnswer: 1
+    correctAnswer: "pop()"
   },
   {
     number: 11,
@@ -74,19 +74,19 @@ export const questions = [
       "=> function()",
       "arrow() {}"
     ],
-    correctAnswer: 1
+    correctAnswer: "() => {}"
   },
   {
     number: 12,
     question: "What will typeof undefined return?",
     options: ["null", "undefined", "object", "string"],
-    correctAnswer: 1
+    correctAnswer: "undefined"
   },
   {
     number: 13,
     question: "Which event occurs when a button is clicked?",
     options: ["onhover", "onload", "onclick", "onchange"],
-    correctAnswer: 2
+    correctAnswer: "onclick"
   },
   {
     number: 14,
@@ -97,13 +97,13 @@ export const questions = [
       "JSON.convert()",
       "JSON.object()"
     ],
-    correctAnswer: 1
+    correctAnswer: "JSON.stringify()"
   },
   {
     number: 15,
     question: "Which keyword exits a loop?",
     options: ["stop", "exit", "break", "return"],
-    correctAnswer: 2
+    correctAnswer:"break"
   },
   {
     number: 16,
@@ -114,7 +114,7 @@ export const questions = [
       "Document Order Method",
       "Display Object Mode"
     ],
-    correctAnswer: 0
+    correctAnswer:"Document Object Model"
   },
   {
     number: 17,
@@ -125,55 +125,55 @@ export const questions = [
       "getElementsByClass()",
       "selectById()"
     ],
-    correctAnswer: 0
+    correctAnswer: "getElementById()"
   },
   {
     number: 18,
     question: "Which value is falsy in JavaScript?",
     options: ["1", "true", "0", "'false'"],
-    correctAnswer: 2
+    correctAnswer: "0"
   },
   {
     number: 19,
     question: "Which operator is used for logical AND?",
     options: ["||", "&&", "!", "&"],
-    correctAnswer: 1
+    correctAnswer: "&&"
   },
   {
     number: 20,
     question: "Which keyword defines a function?",
     options: ["function", "func", "define", "method"],
-    correctAnswer: 0
+    correctAnswer: "function"
   },
   {
     number: 21,
     question: "Which array method adds an item to the end?",
     options: ["push()", "unshift()", "pop()", "splice()"],
-    correctAnswer: 0
+    correctAnswer: "push()"
   },
   {
     number: 22,
     question: "Which JavaScript feature allows reusable code?",
     options: ["Loops", "Functions", "Events", "Conditions"],
-    correctAnswer: 1
+    correctAnswer: "Functions"
   },
   {
     number: 23,
     question: "Which statement handles errors?",
     options: ["try...catch", "if...else", "switch", "throw"],
-    correctAnswer: 0
+    correctAnswer: "try...catch"
   },
   {
     number: 24,
     question: "Which keyword refers to the current object?",
     options: ["self", "this", "object", "current"],
-    correctAnswer: 1
+    correctAnswer: "this"
   },
   {
     number: 25,
     question: "Which method delays execution?",
     options: ["setTimeout()", "setInterval()", "delay()", "wait()"],
-    correctAnswer: 0
+    correctAnswer: "setTimeout()"
   },
 
   // HTML & CSS (26–50)
@@ -186,150 +186,150 @@ export const questions = [
       "Hyperlink and Text Markup Language",
       "Home Tool Markup Language"
     ],
-    correctAnswer: 0
+    correctAnswer: "Hyper Text Markup Language"
   },
   {
     number: 27,
     question: "Which tag is used to create a hyperlink?",
-    options: ["<a>", "<link>", "<href>", "<url>"],
-    correctAnswer: 0
+    options: ["a", "link", "href", "url"],
+    correctAnswer: "a"
   },
   {
     number: 28,
     question: "Which HTML tag is used to insert an image?",
-    options: ["<img>", "<image>", "<src>", "<pic>"],
-    correctAnswer: 0
+    options: ["img", "image", "src", "pic"],
+    correctAnswer: "img"
   },
   {
     number: 29,
     question: "Which tag is used for the largest heading?",
-    options: ["<h6>", "<h4>", "<h1>", "<head>"],
-    correctAnswer: 2
+    options: ["h6", "h4", "h1", "head"],
+    correctAnswer: "h1"
   },
   {
     number: 30,
     question: "Which attribute specifies the image source?",
     options: ["href", "alt", "src", "link"],
-    correctAnswer: 2
+    correctAnswer: "src"
   },
   {
     number: 31,
     question: "Which tag creates an ordered list?",
-    options: ["<ul>", "<ol>", "<li>", "<list>"],
-    correctAnswer: 1
+    options: ["ul", "ol", "li", "list"],
+    correctAnswer: "ol"
   },
   {
     number: 32,
     question: "Which HTML tag is used to create a form?",
-    options: ["<input>", "<form>", "<fieldset>", "<label>"],
-    correctAnswer: 1
+    options: ["input", "form", "fieldset", "label"],
+    correctAnswer: "form"
   },
   {
     number: 33,
     question: "Which CSS property changes text color?",
     options: ["font-color", "text-color", "color", "background"],
-    correctAnswer: 2
+    correctAnswer: "color"
   },
   {
     number: 34,
     question: "Which CSS property controls spacing inside an element?",
     options: ["margin", "padding", "border", "gap"],
-    correctAnswer: 1
+    correctAnswer: "padding"
   },
   {
     number: 35,
     question: "Which CSS property changes background color?",
     options: ["color", "bgcolor", "background-color", "fill"],
-    correctAnswer: 2
+    correctAnswer: "background-color"
   },
   {
     number: 36,
     question: "Which display value places elements in a row by default?",
     options: ["block", "inline", "flex", "grid"],
-    correctAnswer: 1
+    correctAnswer: "inline"
   },
   {
     number: 37,
     question: "Which position value keeps element relative to itself?",
     options: ["absolute", "fixed", "relative", "static"],
-    correctAnswer: 2
+    correctAnswer: "relative"
   },
   {
     number: 38,
     question: "Which CSS unit is relative to viewport width?",
     options: ["px", "em", "%", "vw"],
-    correctAnswer: 3
+    correctAnswer: "vw"
   },
   {
     number: 39,
     question: "Which CSS layout system is two-dimensional?",
     options: ["Flexbox", "Grid", "Block", "Inline"],
-    correctAnswer: 1
+    correctAnswer: "Grid"
   },
   {
     number: 40,
     question: "Which tag links an external CSS file?",
-    options: ["<style>", "<css>", "<script>", "<link>"],
-    correctAnswer: 3
+    options: ["style", "css", "script", "link"],
+    correctAnswer: "link"
   },
   {
     number: 41,
     question: "Which CSS property makes text bold?",
     options: ["font-style", "font-weight", "text-bold", "bold"],
-    correctAnswer: 1
+    correctAnswer: "font-weight"
   },
   {
     number: 42,
     question: "Which HTML element is semantic?",
-    options: ["<div>", "<span>", "<section>", "<b>"],
-    correctAnswer: 2
+    options: ["div", "span", "section", "b"],
+    correctAnswer: "section"
   },
   {
     number: 43,
     question: "Which input type hides text?",
     options: ["text", "password", "hidden", "secure"],
-    correctAnswer: 1
+    correctAnswer: "password"
   },
   {
     number: 44,
     question: "Which CSS property aligns text?",
     options: ["text-align", "align-text", "font-align", "justify-text"],
-    correctAnswer: 0
+    correctAnswer: "text-align"
   },
   {
     number: 45,
     question: "Which tag is used to embed JavaScript?",
-    options: ["<js>", "<javascript>", "<script>", "<code>"],
-    correctAnswer: 2
+    options: ["js", "javascript", "script", "code"],
+    correctAnswer: "script"
   },
   {
     number: 46,
     question: "Which HTML tag defines the page title?",
-    options: ["<meta>", "<title>", "<head>", "<header>"],
-    correctAnswer: 1
+    options: ["meta", "title", "head", "header"],
+    correctAnswer: "title"
   },
   {
     number: 47,
     question: "Which CSS property controls element size?",
     options: ["scale", "size", "width", "dimension"],
-    correctAnswer: 2
+    correctAnswer: "width"
   },
   {
     number: 48,
     question: "Which CSS property hides overflow?",
     options: ["display", "visibility", "overflow", "hidden"],
-    correctAnswer: 2
+    correctAnswer: "overflow"
   },
   {
     number: 49,
     question: "Which tag is used for line break?",
-    options: ["<lb>", "<break>", "<br>", "<hr>"],
-    correctAnswer: 2
+    options: ["lb", "break", "br", "hr"],
+    correctAnswer: "br"
   },
   {
     number: 50,
     question: "Which CSS value removes default spacing?",
     options: ["0", "none", "auto", "clear"],
-    correctAnswer: 0
+    correctAnswer: "0"
   }
 ];
