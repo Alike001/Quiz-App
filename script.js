@@ -5,6 +5,8 @@ const exitBtn = infoBox.querySelector('.buttons .quit');
 const continueBtn = infoBox.querySelector('.buttons .restart');
 const quizBox = document.querySelector('.quiz_box');
 const resultBox = document.querySelector('.result_box');
+const replayBtn = resultBox.querySelector('.buttons .restart');
+const quitBtn = resultBox.querySelector('.buttons .quit')
 
 startBtn.addEventListener('click', () => {
 	infoBox.classList.add('activeInfo');
@@ -36,6 +38,28 @@ nextBtn.addEventListener('click', () => {
 		quizBox.classList.remove('activeQuiz');
 		resultBox.classList.add('activeResult');
 	}
+});
+
+replayBtn.addEventListener('click' , () => {
+	resultBox.classList.remove('activeResult');
+	quizBox.classList.add('activeQuiz');
+
+	//Reset
+	queCount = 0;
+	queNum = 1;
+
+	showQuestions(queCount);
+  queCounter(queNum);
+});
+
+quitBtn.addEventListener('click', () => {
+	resultBox.classList.remove('activeResult');
+	quizBox.classList.remove('activeQuiz');
+	startBtn.classList.add('activeBtn');
+
+	//Reset
+	queCount = 0;
+  queNum = 1;
 });
 
 function showQuestions(index) {

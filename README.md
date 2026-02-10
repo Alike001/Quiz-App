@@ -18,6 +18,12 @@ At the time of submission, the project is **partially completed** and will be im
 - Question counter in the footer (e.g. `1 of 50`)
 - 50 quiz questions added (JavaScript, HTML & CSS basics)
 - Result box displayed after the last question
+- Interactive **Replay Quiz** button:
+  - Restarts the quiz from the first question after completing the quiz
+  - Resets question progress and counter
+- Interactive **Quit Quiz** button:
+  - Returns the user to the start quiz home screen
+  - Resets quiz state for a fresh attempt
 
 
 ## How the App Works
@@ -33,6 +39,9 @@ At the time of submission, the project is **partially completed** and will be im
 6. Clicking **Next Question** loads the next question.
 7. The footer updates to show the current question number.
 8. When the last question is reached and **Next** is clicked, the **Result Box** is displayed.
+9. When **Result Box** is displayed the user will choose to **Replay the Quiz** or **Quit the Quiz**
+10. Clicking **Replay Quiz** restarts the quiz from Question 1.
+11. Clicking **Quit Quiz** returns the user to the start screen.
 
 
 
